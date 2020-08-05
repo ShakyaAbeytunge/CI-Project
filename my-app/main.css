@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+.header {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.features {
+    margin: 1em;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 50px;
+}
+.features-new {
+    margin: 1em;
+    padding: 50px;
+    position: relative;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 400px;
+}
+.features .form-control,
+.features input {
+    border-radius: 10px;
+}
+.right {
+    text-align: right;
+    float: right;
+}
